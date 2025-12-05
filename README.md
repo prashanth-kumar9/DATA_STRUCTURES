@@ -9,3 +9,11 @@ Recursion & Backtracking
     Divide and conquer algorithms 
     Towers of Hanoi 
     Backtracking algorithms
+
+        Binary Strings: generating all binary strings 
+        Generating D −ary Strings 
+        N-Queens Problem 
+        The Knapsack Problem 
+        Generalized Strings 
+        Hamiltonian Cycles [refer DDDDℎD chapter] 
+        Graph Coloring Problem 
