@@ -72,7 +72,15 @@ class LinkedList:
         
         return node
         
-        
+    def reverse(self):
+        current=self.head
+        prev=None
+        while current:
+            next=current.nxt
+            current.nxt=prev
+            prev=current
+            current=next  
+        return prev    
         
             
         
@@ -92,4 +100,8 @@ print(ll2.getSize())
 
 ll.head=ll.recursive_reverse(ll.head)
 print("after reverse")
+ll.Displaylist()
+
+ll.head=ll.reverse()
+print("normal reverse")
 ll.Displaylist()
